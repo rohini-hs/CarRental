@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Query CSS Samples</title>
+    </head>
+    <body>
+        <p>DriveOne Car Rentals</p>
+        <p>
+        PickUp Date : <input type="text" id="pickdate"><br>
+        <br>
+        Number of days :<input type="text" id="NOD"><br>
+        </p>
+
+       <p> OPtions:</p>
+        
+     <div>
+        Toll Tag : <input type="checkbox" id = "TollTag"><br>
+        <br>
+        GPS : <input type="checkbox" id = "gps">
+        <br><br>
+
+        Roadside Assistance : <input type="checkbox" id = "RoadAssint"><br><br>
+    </div>
+       <fieldset>
+        <legend>Under 25?:</legend>
+        
+        yes : <input type="radio" id = "yes" name = "surcharges"><br>
+        no : <input type="radio" id = "no" name = "surcharges"><br>
+        </fieldset>
+        <p>
+       <input type="button" id="Calculate" value = "Estimate total cost">
+       </p>
+
+       <p>Car Rentals : 550 rs</p>
+       <p>Under 25 surcharges : 120 rs</p>
+       <p>Total due</p>
+       <div id="TotalCost">
+
+       </div>
+
+
+       <script src="./scripts/index.js"></script>
+    </body>
+</html>
